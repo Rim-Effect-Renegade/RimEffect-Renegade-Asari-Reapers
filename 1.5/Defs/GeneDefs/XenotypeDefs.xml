@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>RE_Asari</defName>
+		<label>asari</label>
+		<description>Elegant mono-gender race. Native to the planet Thessia, Asari are often considered the most influential and respected sentient species in the galaxy, and are known for their, diplomacy and psychic aptitude.</description>
+		<descriptionShort>Elegant mono-gender race. Native to the planet Thessia, Asari are often considered the most influential and respected sentient species in the galaxy, and are known for their, diplomacy and psychic aptitude.</descriptionShort>
+		<inheritable>true</inheritable>
+		<nameMaker>RE_NameGeneratorAsari</nameMaker>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<iconPath>UI/Icons/Xenotypes/RE_AsariRace</iconPath>
+		<genes>
+			<li>Body_Standard</li>
+			<li>Skin_Green</li>
+			<li>Skin_Purple</li>
+			<li>Skin_Blue</li>
+			<li>MinTemp_SmallIncrease</li>
+			<li>Beauty_Beautiful</li>
+			<li>AptitudeTerrible_Mining</li>
+			<li>AptitudeTerrible_Animals</li>
+			<li>AptitudeRemarkable_Social</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>RE_FemaleOnly</li>
+			<li>RE_AssertiveGenes</li>
+			<li>RE_SlowerAging</li>
+			<li>RE_NaturalBiotic</li>
+			<li>RE_AsariBlood</li>
+			<li>RE_AsariCrestGene</li>
+			<li>RE_AsariMarkings</li>
+		</genes>
+	</XenotypeDef>
+	
+</Defs>

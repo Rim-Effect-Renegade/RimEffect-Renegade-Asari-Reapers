@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FleshTypeDef>
+        <defName>RE_BlueWoundsFlesh</defName>
+		<corpseCategory>CorpsesAnimal</corpseCategory>
+		<damageEffecter>RE_Damage_HitBlueFlesh</damageEffecter>
+        <genericWounds>
+            <li>
+                <texture>Things/Pawn/Asari/Wounds/RE_BlueWoundFleshA</texture>
+            </li>
+            <li>
+                <texture>Things/Pawn/Asari/Wounds/RE_BlueWoundFleshB</texture>
+            </li>
+            <li>
+                <texture>Things/Pawn/Asari/Wounds/RE_BlueWoundFleshC</texture>
+            </li>
+        </genericWounds>
+    </FleshTypeDef>
+
+</Defs>

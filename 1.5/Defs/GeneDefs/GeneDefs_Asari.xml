@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<GeneDef>
+		<defName>RE_AssertiveGenes</defName>
+		<label>assertive genes</label>
+		<description>This gene causes the xenotype to be particularly assertive, the xenotype with this gene will be completely dominant and be the one passed on to the baby. If both are different xenotypes and have this gene, it's cancelled out.</description>
+		<displayCategory>Miscellaneous</displayCategory>
+		<iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>RE_SlowerAging</defName>
+		<label>slower aging</label>
+		<description>Carriers of this gene will age at a decreased rate. This applies to both children and adults. This has its advantages and disadvantages.</description>
+		<iconPath>UI/Icons/Genes/Gene_SlowerAging</iconPath>
+		<exclusionTags>
+			<li>AG_Aging</li>
+			<li>Aging</li>
+		</exclusionTags>
+		<displayCategory>Healing</displayCategory>
+		<displayOrderInCategory>501</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<customEffectDescriptions>
+			<li>Age will advance 50% slower.</li>
+		</customEffectDescriptions>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(13, 0.5)</li>
+				<li>(18, 0.5)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+		<selectionWeight>0</selectionWeight>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>RE_FemaleOnly</defName>
+		<label>female only</label>
+		<description>Carriers of this gene are always biologically female.</description>
+		<iconPath>UI/Icons/Genes/Gene_Female</iconPath>
+		<displayOrderInCategory>0</displayOrderInCategory>
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>gyno</symbol>
+				</li>
+				<li>
+					<symbol>female</symbol>
+				</li>
+				<li>
+					<symbol>she-</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<selectionWeight>0</selectionWeight>
+		<displayCategory>Miscellaneous</displayCategory>
+		<exclusionTags>
+			<li>AG_Gender</li>
+			<li>Gender</li>
+		</exclusionTags>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<forceFemale>true</forceFemale>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>RE_AsariBlood</defName>
+		<label>blue blood</label>
+		<displayCategory>Healing</displayCategory>
+		<description>Carriers of this gene have low levels of certain minerals in their blood, which results in it having a dark blue color.</description>
+		<iconPath>UI/Icons/Genes/Gene_BlueBlood</iconPath>
+		<displayOrderInCategory>0</displayOrderInCategory>
+		<exclusionTags>
+			<li>AG_BloodType</li>
+			<li>BloodType</li>
+			<li>Blood</li>
+		</exclusionTags>
+		<biostatCpx>1</biostatCpx>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>bluebleeder</symbol>
+				</li>
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>blue</symbol>
+				</li>
+				<li>
+					<symbol>aqua</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>marine</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<customBloodThingDef>RE_Filth_BlueBlood</customBloodThingDef>
+				<customBloodIcon>UI/Icons/Medical/RE_BlueBleeding</customBloodIcon>
+				<customBloodEffect>RE_Damage_HitBlueFlesh</customBloodEffect>
+				<customWoundsFromFleshtype>RE_BlueWoundsFlesh</customWoundsFromFleshtype>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>RE_AsariCrestGene</defName>
+		<label>crested head</label>
+		<description>Carriers of this gene have a semi-flexible, cartilage-based scalp-crests that grow into a curved shape.</description>
+		<iconPath>UI/Icons/Genes/AsariCrest</iconPath>
+		<displayOrderInCategory>500</displayOrderInCategory>
+		<forcedHeadTypes>
+			<li>RE_Asari_Head_Normal</li>
+			<li>RE_Asari_Head_Pointy</li>
+			<li>RE_Asari_Head_Normal_AltEyes</li>
+			<li>RE_Asari_Head_Pointy_AltEyes</li>
+		</forcedHeadTypes>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>RE_AsariMarkings</defName>
+		<label>asari markings</label>
+		<description>Carriers of this have the facial markings of the asari.</description>
+		<iconPath>UI/Icons/Genes/AsariMarkings</iconPath>
+		<displayCategory>Cosmetic</displayCategory>
+		<iconColor>(0.75, 0.75, 0.75)</iconColor>
+		<displayOrderInCategory>500</displayOrderInCategory>
+		<biostatCpx>0</biostatCpx>
+		<graphicData>
+			<graphicPaths>
+				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Acolyte/normal</li>
+				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Disciple/normal</li>
+				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Huntress/normal</li>
+				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Justicar/normal</li>
+				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Maiden/normal</li>
+				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Matriarch/normal</li>
+				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Matron/normal</li>
+				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Omega/normal</li>
+				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Reaver/normal</li>
+				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Rogue/normal</li>
+				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Sorrow/normal</li>
+				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Spectre/normal</li>
+			</graphicPaths>
+			<visibleNorth>false</visibleNorth>
+			<layer>PostSkin</layer>
+			<color>(0, 0, 0)</color>
+			<narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
+		</graphicData>
+	</GeneDef>
+</Defs>

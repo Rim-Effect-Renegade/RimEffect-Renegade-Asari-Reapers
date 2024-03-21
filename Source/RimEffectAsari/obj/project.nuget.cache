@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LvfFzej3J29fZ77xk9pd2+BUXEFCRu/ToO0M3NfHPjxUSB0PFzHb2xBcr+W8A3+7P1+BYNevO+oMiOxmf1uPoA==",
+  "success": true,
+  "projectFilePath": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers\\Source\\RimEffectAsari\\RimEffectAsari.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dean\\.nuget\\packages\\lib.harmony\\2.2.2\\lib.harmony.2.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}

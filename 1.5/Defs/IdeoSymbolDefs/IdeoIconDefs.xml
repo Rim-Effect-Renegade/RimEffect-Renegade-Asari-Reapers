@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<IdeoIconDef>
+		<defName>RE_Thessian_Ideoligion</defName>
+		<iconPath>UI/Icons/Ideoligion/RE_Thessian_Ideoligion</iconPath>
+		<memes>
+			<li>FemaleSupremacy</li>
+			<li MayRequire="vanillaexpanded.vmemese">VME_Republic</li>
+			<li MayRequire="vanillaexpanded.vmemese">VME_Elders</li>
+		</memes>
+	</IdeoIconDef>
+
+	<IdeoIconDef>
+		<defName>RE_Alliance_Ideoligion</defName>
+		<iconPath>UI/Icons/Ideoligion/RE_Alliance_Ideoligion</iconPath>
+		<memes>
+			<li>Individualist</li>
+			<li>Loyalist</li>
+			<li>HumanPrimacy</li>
+		</memes>
+	</IdeoIconDef>
+	
+</Defs>

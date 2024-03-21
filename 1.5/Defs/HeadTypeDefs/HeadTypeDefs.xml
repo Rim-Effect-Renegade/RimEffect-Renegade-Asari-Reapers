@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>RE_Asari_Head_Normal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/RE_Asari/RE_Asari_Normal</graphicPath>
+		<randomChosen>false</randomChosen>
+		<requiredGenes>
+			<li>RE_AsariCrestGene</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>RE_Asari_Head_Pointy</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/RE_Asari/RE_Asari_Pointy</graphicPath>
+		<randomChosen>false</randomChosen>
+		<requiredGenes>
+			<li>RE_AsariCrestGene</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>RE_Asari_Head_Normal_AltEyes</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/RE_Asari/RE_Asari_Normal_AltEyes</graphicPath>
+		<randomChosen>false</randomChosen>
+		<requiredGenes>
+			<li>RE_AsariCrestGene</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>RE_Asari_Head_Pointy_AltEyes</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/RE_Asari/RE_Asari_Pointy_AltEyes</graphicPath>
+		<randomChosen>false</randomChosen>
+		<requiredGenes>
+			<li>RE_AsariCrestGene</li>
+		</requiredGenes>
+		<selectionWeight>1</selectionWeight>
+	</HeadTypeDef>
+
+</Defs>
