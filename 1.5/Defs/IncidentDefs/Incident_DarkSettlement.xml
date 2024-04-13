@@ -7,7 +7,7 @@
 		<targetTags>
 			<li>World</li>
 		</targetTags>
-		<workerClass>RimEffectReapers.IncidentWorker_DarkSettlement</workerClass>
+		<workerClass>RimEffectAR.IncidentWorker_DarkSettlement</workerClass>
 		<baseChance>0.1</baseChance>
 		<minRefireDays>0</minRefireDays>
 		<letterDef>ThreatBig</letterDef>
@@ -21,7 +21,7 @@
 		<targetTags>
 			<li>World</li>
 		</targetTags>
-		<workerClass>RimEffectReapers.IncidentWorker_DarkSettlementReclaimed</workerClass>
+		<workerClass>RimEffectAR.IncidentWorker_DarkSettlementReclaimed</workerClass>
 		<baseChance>0.01</baseChance>
 		<minRefireDays>0</minRefireDays>
 		<letterDef>PositiveEvent</letterDef>

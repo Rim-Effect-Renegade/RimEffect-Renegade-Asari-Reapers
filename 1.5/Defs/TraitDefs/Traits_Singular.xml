@@ -29,7 +29,7 @@
 
 	<StatDef>
 		<defName>RE_ArdatYakshiPower</defName>
-		<workerClass>RimEffectAsari.StatWorker_ArdatYakshiPower</workerClass>
+		<workerClass>RimEffectAR.StatWorker_ArdatYakshiPower</workerClass>
 		<label>ardat yakshi multiplier</label>
 		<description>How much energy the ardat yakshi accumulated.</description>
 		<category>PawnMisc</category>

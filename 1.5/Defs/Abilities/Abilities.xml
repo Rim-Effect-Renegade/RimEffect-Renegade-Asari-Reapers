@@ -85,7 +85,7 @@
 			<li Class="HediffCompProperties_Effecter">
 				<stateEffecter>RE_WarpEffecter</stateEffecter>
 			</li>
-			<li Class="RimEffectAsari.HediffCompProperties_WarpTargetReact">
+			<li Class="RimEffectAR.HediffCompProperties_WarpTargetReact">
 				<radius>5.9</radius>
 				<damageDef>Blunt</damageDef>
 				<baseDamage>20</baseDamage>
@@ -124,7 +124,7 @@
 		<defName>RE_Biotic_Flight</defName>
 		<label>biotic flight</label>
 		<description>Using biotic energy, lift yourself in the air to travel a short distance over any obstacles.</description>
-		<abilityClass>RimEffectAsari.Ability_Flight</abilityClass>
+		<abilityClass>RimEffectAR.Ability_Flight</abilityClass>
 		<targetMode>Location</targetMode>
 		<castTime>0</castTime>
 		<range>10</range>
@@ -269,7 +269,7 @@
 		<defName>RE_Biotic_Stasis</defName>
 		<label>biotic stasis</label>
 		<description>Locks a target in space and time, preventing anything from affecting them for the duration of the stasis effect. The target cannot be damaged, cannot attack or move.</description>
-		<abilityClass>RimEffectAsari.Ability_Stasis</abilityClass>
+		<abilityClass>RimEffectAR.Ability_Stasis</abilityClass>
 		<targetMode>Pawn</targetMode>
 		<castTime>60</castTime>
 		<range>24</range>
@@ -334,7 +334,7 @@
 		<defName>RE_Biotic_Sphere</defName>
 		<label>biotic sphere</label>
 		<description>Create a defensive shield that surrounds the caster and nearby allies. Drains biotic energy quickly, creating a shield around the user and any nearby allies.</description>
-		<abilityClass>RimEffectAsari.Ability_Sphere</abilityClass>
+		<abilityClass>RimEffectAR.Ability_Sphere</abilityClass>
 		<targetMode>Self</targetMode>
 		<castTime>60</castTime>
 		<radius>5</radius>
@@ -376,7 +376,7 @@
 		<defName>RE_Biotic_SphereShield</defName>
 		<label>biotic sphere</label>
 		<description>A defensive shield that surrounds the caster and nearby allies. Drains biotic energy quickly, creating a shield around the user and any nearby allies.</description>
-		<thingClass>RimEffectAsari.BioticSphere</thingClass>
+		<thingClass>RimEffectAR.BioticSphere</thingClass>
 		<graphicData>
 			<texPath>Things/AbilityEffects/BioticSphere</texPath>
 			<color>(255,255,255,255)</color>

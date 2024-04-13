@@ -2,7 +2,7 @@
 <Defs>
 	<JobDef>
 		<defName>RE_EnterShuttle</defName>
-		<driverClass>RimEffectAsari.JobDriver_EnterShuttle</driverClass>
+		<driverClass>RimEffectAR.JobDriver_EnterShuttle</driverClass>
 		<reportString>entering TargetA.</reportString>
 		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
 	</JobDef>
@@ -11,7 +11,7 @@
 		<defName>RE_LeaveOnShuttle</defName>
 		<thinkNode Class="ThinkNode_Priority">
 			<subNodes>
-				<li Class="RimEffectAsari.JobGiver_EnterAsariShuttle" />
+				<li Class="RimEffectAR.JobGiver_EnterAsariShuttle" />
 			</subNodes>
 		</thinkNode>
 	</DutyDef>
@@ -24,7 +24,7 @@
 					<targetAcquireRadius>35</targetAcquireRadius>
 					<targetKeepRadius>40</targetKeepRadius>
 				</li>
-				<li Class="RimEffectAsari.JobGiver_EnterAsariShuttle" />
+				<li Class="RimEffectAR.JobGiver_EnterAsariShuttle" />
 			</subNodes>
 		</thinkNode>
 	</DutyDef>

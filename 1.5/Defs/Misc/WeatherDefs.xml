@@ -13,11 +13,11 @@
 		<eventMakers>
 			<li>
 				<averageInterval>1200</averageInterval>
-				<eventClass>RimEffectReapers.WeatherEvent_ReaperLightningFlash</eventClass>
+				<eventClass>RimEffectAR.WeatherEvent_ReaperLightningFlash</eventClass>
 			</li>
 			<li>
 				<averageInterval>600</averageInterval>
-				<eventClass>RimEffectReapers.WeatherEvent_ReaperLightningStrike</eventClass>
+				<eventClass>RimEffectAR.WeatherEvent_ReaperLightningStrike</eventClass>
 			</li>
 		</eventMakers>
 		<skyColorsDay>

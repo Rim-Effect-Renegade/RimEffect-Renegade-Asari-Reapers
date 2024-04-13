@@ -5,7 +5,7 @@
 
 	<JobDef>
 		<defName>RE_BansheeTeleport</defName>
-		<driverClass>RimEffectAsari.JobDriver_BansheeTeleport</driverClass>
+		<driverClass>RimEffectAR.JobDriver_BansheeTeleport</driverClass>
 		<reportString>teleport scream.</reportString>
 	</JobDef>
 </Defs>

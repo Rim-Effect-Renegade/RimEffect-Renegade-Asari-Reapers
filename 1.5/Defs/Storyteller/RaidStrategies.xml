@@ -92,7 +92,7 @@
 				</canBeUsedBy>
 				<needToHaveSettlements>true</needToHaveSettlements>
 				<spawnDormantWhenPossible>false</spawnDormantWhenPossible>
-				<skyfaller>RimEffectReapers.Reaper_Skyfaller</skyfaller>
+				<skyfaller>RimEffectAR.Reaper_Skyfaller</skyfaller>
 			</li>
 		</modExtensions>
 	</RaidStrategyDef>

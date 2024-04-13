@@ -4,7 +4,7 @@
 		<defName>RE_Reaper</defName>
 		<label>reaper</label>
 		<description>A landed Reaper.</description>
-		<worldObjectClass>RimEffectReapers.ReaperShip</worldObjectClass>
+		<worldObjectClass>RimEffectAR.ReaperShip</worldObjectClass>
 		<expandingIcon>true</expandingIcon>
 		<texture>UI/FactionIcons/ReaperShip</texture>
 		<expandingIconTexture>UI/FactionIcons/ReaperShip</expandingIconTexture>
@@ -18,7 +18,7 @@
 			<li Class="WorldObjectCompProperties_EnterCooldown" />
 		</comps>
 		<modExtensions>
-			<li Class="RimEffectReapers.ReaperBaseExtension">
+			<li Class="RimEffectAR.ReaperBaseExtension">
 				<raisesPresence>500</raisesPresence>
 				<nameMaker>RE_NameGenerate</nameMaker>
 			</li>

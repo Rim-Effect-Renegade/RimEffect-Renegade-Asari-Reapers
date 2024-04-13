@@ -3,11 +3,11 @@
 	<GenStepDef>
 		<defName>RE_Reaperify</defName>
 		<order>405</order>
-		<genStep Class="RimEffectReapers.GenStep_Reaperify" />
+		<genStep Class="RimEffectAR.GenStep_Reaperify" />
 	</GenStepDef>
 	<GenStepDef>
 		<defName>RE_DragonsTeeth</defName>
 		<order>406</order>
-		<genStep Class="RimEffectReapers.GenStep_DragonsTeeth" />
+		<genStep Class="RimEffectAR.GenStep_DragonsTeeth" />
 	</GenStepDef>
 </Defs>

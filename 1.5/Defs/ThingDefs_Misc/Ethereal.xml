@@ -26,7 +26,7 @@
 	<ThingDef ParentName="SkyfallerBase">
 		<defName>RER_ReaperLongRangeMissile_Leaving</defName>
 		<label>long range reaper missile</label>
-		<thingClass>RimEffectReapers.LongRangeMissile</thingClass>
+		<thingClass>RimEffectAR.LongRangeMissile</thingClass>
 		<size>(1, 1)</size>
 		<useHitPoints>false</useHitPoints>
 		<graphicData>
@@ -56,7 +56,7 @@
 	<ThingDef ParentName="SkyfallerBase">
 		<defName>RER_ReaperLongRangeMissile_Arriving</defName>
 		<label>long range reaper missile</label>
-		<thingClass>RimEffectReapers.LongRangeMissile</thingClass>
+		<thingClass>RimEffectAR.LongRangeMissile</thingClass>
 		<size>(1, 1)</size>
 		<useHitPoints>false</useHitPoints>
 		<graphicData>
@@ -78,7 +78,7 @@
 
 	<ThingDef>
 		<defName>RER_ReaperBeamGraphic</defName>
-		<thingClass>RimEffectReapers.ReaperBeamDraw</thingClass>
+		<thingClass>RimEffectAR.ReaperBeamDraw</thingClass>
 		<drawOffscreen>true</drawOffscreen>
 		<label>reaper beam</label>
 		<category>Projectile</category>

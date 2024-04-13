@@ -59,7 +59,14 @@
 			</defaultOutfitTags>
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
 			<useWornGraphicMask>true</useWornGraphicMask>
-			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<drawData>
+				<dataNorth>
+					<layer>-3</layer>
+				</dataNorth>
+			</drawData>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>

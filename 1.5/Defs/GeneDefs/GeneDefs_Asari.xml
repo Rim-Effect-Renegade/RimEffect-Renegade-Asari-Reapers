@@ -2,8 +2,8 @@
 <Defs>
 
 	<GeneDef>
-		<defName>RE_AssertiveGenes</defName>
-		<label>assertive genes</label>
+		<defName>RE_DominantGenes</defName>
+		<label>dominant genes</label>
 		<description>This gene causes the xenotype to be particularly assertive, the xenotype with this gene will be completely dominant and be the one passed on to the baby. If both are different xenotypes and have this gene, it's cancelled out.</description>
 		<displayCategory>Miscellaneous</displayCategory>
 		<iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
@@ -137,25 +137,42 @@
 		<iconColor>(0.75, 0.75, 0.75)</iconColor>
 		<displayOrderInCategory>500</displayOrderInCategory>
 		<biostatCpx>0</biostatCpx>
-		<graphicData>
-			<graphicPaths>
-				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Acolyte/normal</li>
-				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Disciple/normal</li>
-				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Huntress/normal</li>
-				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Justicar/normal</li>
-				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Maiden/normal</li>
-				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Matriarch/normal</li>
-				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Matron/normal</li>
-				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Omega/normal</li>
-				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Reaver/normal</li>
-				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Rogue/normal</li>
-				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Sorrow/normal</li>
-				<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Spectre/normal</li>
-			</graphicPaths>
-			<visibleNorth>false</visibleNorth>
-			<layer>PostSkin</layer>
-			<color>(0, 0, 0)</color>
-			<narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
-		</graphicData>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<texPaths>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Acolyte/normal</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Disciple/normal</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Huntress/normal</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Justicar/normal</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Maiden/normal</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Matriarch/normal</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Matron/normal</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Omega/normal</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Reaver/normal</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Rogue/normal</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Sorrow/normal</li>
+					<li>Things/Pawn/Humanlike/HeadAttachments/AsariMarkings/Spectre/normal</li>
+				</texPaths>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<colorType>Custom</colorType>
+				<color>(0, 0, 0)</color>
+				<useRottenColor>true</useRottenColor>
+				<useSkinShader>false</useSkinShader>
+				<drawSize>1.0</drawSize>
+				<drawData>
+					<defaultData>
+						<layer>51</layer>
+					</defaultData>
+				</drawData>
+				<visibleFacing>
+					<li>South</li>
+					<li>East</li>
+					<li>West</li>
+				</visibleFacing>
+			</li>
+		</renderNodeProperties>
 	</GeneDef>
 </Defs>

@@ -7,14 +7,14 @@
 		<targetTags>
 			<li>World</li>
 		</targetTags>
-		<workerClass>RimEffectReapers.IncidentWorker_ReaperLanding</workerClass>
+		<workerClass>RimEffectAR.IncidentWorker_ReaperLanding</workerClass>
 		<baseChance>0.1</baseChance>
 		<minRefireDays>0</minRefireDays>
 		<letterDef>RE_ReaperLanding</letterDef>
 		<letterLabel>Reaper Landed</letterLabel>
 		<letterText>A Reaper has landed not far from your location.\n\nEach Reaper increases the Reaper presence on the surface, resulting in larger assault forces patrolling the area and a bigger invasion force when attacking settlements - yours included.\n\nDestroying the Reaper can be very difficult, but will decrease their presence on the planet.</letterText>
 		<modExtensions>
-			<li Class="RimEffectReapers.ReaperIncidentExtension">
+			<li Class="RimEffectAR.ReaperIncidentExtension">
 				<baseToPlace>RE_Reaper</baseToPlace>
 				<minDistance>5</minDistance>
 				<maxDistance>90</maxDistance>
@@ -36,7 +36,7 @@
 		<targetTags>
 			<li>World</li>
 		</targetTags>
-		<workerClass>RimEffectReapers.IncidentWorker_ReaperDown</workerClass>
+		<workerClass>RimEffectAR.IncidentWorker_ReaperDown</workerClass>
 		<baseChance>0.02</baseChance>
 		<minRefireDays>0</minRefireDays>
 		<letterDef>PositiveEvent</letterDef>

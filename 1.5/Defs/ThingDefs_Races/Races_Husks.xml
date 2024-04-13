@@ -264,7 +264,9 @@
 			<intelligence>ToolUser</intelligence>
 			<thinkTreeMain>Mechanoid</thinkTreeMain>
 			<body>RE_RachniLike</body>
-			<deathActionWorkerClass>RimEffectReapers.DeathActionWorker_Spawner</deathActionWorkerClass>
+			<deathAction>
+				<workerClass>RimEffectAR.DeathActionWorker_Spawner</workerClass>
+			</deathAction>
 			<baseBodySize>1.7</baseBodySize>
 			<baseHealthScale>1.0</baseHealthScale>
 			<lifeStageAges>
@@ -286,7 +288,7 @@
 			<Plasteel>5</Plasteel>
 		</butcherProducts>
 		<modExtensions>
-			<li Class="RimEffectReapers.DefModExt_DeathSpawnerProps">
+			<li Class="RimEffectAR.DefModExt_DeathSpawnerProps">
 				<kindDef>RE_Husk_Swarmer</kindDef>
 				<quantityRange>3~5</quantityRange>
 			</li>

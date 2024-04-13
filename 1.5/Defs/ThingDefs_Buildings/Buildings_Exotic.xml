@@ -60,7 +60,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>RE_AsariShuttleLanded</defName>
 		<label>asari shuttle (landed)</label>
-		<thingClass>RimEffectAsari.AsariShuttleLanded</thingClass>
+		<thingClass>RimEffectAR.AsariShuttleLanded</thingClass>
 		<description>An advanced shuttle propelled using small directional thrusters and a mass effect based repulsion system, this model is a common sight throughout the galaxy thanks to it's robust design and ability to make limited FTL jumps.</description>
 		<altitudeLayer>Building</altitudeLayer>
 		<pathCost>50</pathCost>
