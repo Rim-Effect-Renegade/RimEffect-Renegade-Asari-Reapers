@@ -31,7 +31,7 @@ namespace RimEffectAR
             Version version = Assembly.GetExecutingAssembly().GetName().Version;
             CurrentVersion = $"{version.Major}.{version.Minor}.{version.Build}";
 
-            Log.Message($":: Rim-Effect Reborn: Asari & Reapers :: {CurrentVersion} ::".Colorize(Color.cyan));
+            Log.Message($":: Rim-Effect Renegade: Asari & Reapers :: {CurrentVersion} ::".Colorize(Color.cyan));
 
             if (Prefs.DevMode)
             {
@@ -42,7 +42,7 @@ namespace RimEffectAR
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
 
-        public override string SettingsCategory() => "Rim-Effect Reborn: Asari & Reapers";
+        public override string SettingsCategory() => "Rim-Effect Renegade: Asari & Reapers";
 
         public override void DoSettingsWindowContents(Rect inRect)
         {
