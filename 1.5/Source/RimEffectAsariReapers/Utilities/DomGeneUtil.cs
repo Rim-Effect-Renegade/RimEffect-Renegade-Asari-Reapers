@@ -6,16 +6,16 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using Verse;
+using Verse.AI;
 
 namespace RimEffectAR
 {
     public static class DomGeneUtil
-	{
-		public delegate void InheritGenes(List<GeneDef> genes);
+    {
+        public delegate void InheritGenes(List<GeneDef> genes);
+        public delegate void InheritXenotype(ref XenotypeDef xenotype);
 
-		public delegate void InheritXenotype(ref XenotypeDef xenotype);
-
-		internal static Pawn dominantParent;
+		internal static Pawn domParent;
 
 		public static List<Gene> GetEndogenes(this Pawn pawn)
 		{
@@ -52,23 +52,22 @@ namespace RimEffectAR
 			}
 			List<Gene> parentEndogenes;
 			List<Gene> xenoGenes;
-			bool flag = parent.HasDominantGene(out parentEndogenes, out xenoGenes);
-			if (flag && inherit == null)
-			{
-				inherit = delegate (List<GeneDef> genes)
+			if (parent.HasDominantGene(out parentEndogenes, out xenoGenes) && inherit == null)
+            {
+                inherit = delegate (List<GeneDef> genes)
 				{
-					foreach (Gene item in parentEndogenes)
-					{
-						genes.AddDistinct(item.def);
-					}
-				};
-			}
-			return flag;
+                    foreach (var parentGene in parentEndogenes)
+                    {
+                        genes.AddDistinct(parentGene.def);
+                    }
+                };
+            }
+			return false;
 		}
 
 		public static bool CanInheritParentDominantXenotype(Pawn parent, ref InheritXenotype inherit)
-		{
-			if (parent == null)
+        {
+            if (parent == null)
 			{
 				return false;
 			}
@@ -85,7 +84,7 @@ namespace RimEffectAR
 						xenotype = type;
 					};
 				}
-				dominantParent = parent;
+				domParent = parent;
 			}
 			return flag;
 		}

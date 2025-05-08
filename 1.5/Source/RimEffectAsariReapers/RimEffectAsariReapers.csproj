@@ -54,6 +54,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -112,19 +113,19 @@
     <Compile Include="DeathActionWorkers\DeathActionWorker_Spawner.cs" />
     <Compile Include="DefModExtensions\DefModExt_DeathSpawnerProps.cs" />
     <Compile Include="GenSteps\GenStep_DragonsTeeth.cs" />
-    <Compile Include="Harmony\FemaleOnlyGene_Patch.cs" />
+    <Compile Include="Harmony\Patch_PawnGenerator_GeneratePawnRelations.cs" />
     <Compile Include="GameConditions\GameCondition_ReaperWeather.cs" />
     <Compile Include="GenSteps\GenStep_Reaperify.cs" />
-    <Compile Include="Harmony\ApplyArmor_Patch.cs" />
-    <None Include="Harmony\DomGene_Patches.cs" />
-    <Compile Include="Harmony\CalculateBleedRate_Patch.cs" />
+    <Compile Include="Harmony\Patch_ArmorUtility_ApplyArmor.cs" />
+    <Compile Include="Harmony\DomGene_Patches.cs" />
+    <Compile Include="Harmony\Patch_HediffSet_CalculateBleedRate.cs" />
     <None Include="Harmony\GrammarGenderResolve.cs" />
     <Compile Include="Harmony\Lovin_Patch.cs" />
     <Compile Include="Harmony\RecruitChanceFinal_Patch.cs" />
     <Compile Include="Harmony\TraderCaravanArrival_Patch.cs" />
     <None Include="Harmony\AvoidGrid_Patch.cs" />
-    <Compile Include="Harmony\CalculateCapacity_Patch.cs" />
-    <Compile Include="Harmony\DamageFactor_Patch.cs" />
+    <Compile Include="Harmony\Patch_HediffSet_CalculateCapacity.cs" />
+    <Compile Include="Harmony\Patch_VerbProperties_GetDamageFactorFor.cs" />
     <Compile Include="Harmony\Trigger_UrgentlyHungry_Patch.cs" />
     <Compile Include="Harmony\HealthTrackerPainShock_Patch.cs" />
     <Compile Include="Harmony\Raid_Patches.cs" />
@@ -162,6 +163,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Genes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

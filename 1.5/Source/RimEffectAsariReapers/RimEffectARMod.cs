@@ -37,9 +37,6 @@ namespace RimEffectAR
             {
                 File.WriteAllText(VersionDir, CurrentVersion);
             }
-
-            HarmonyLib.Harmony harmony = new HarmonyLib.Harmony("Neronix17.RimEffectAsariReapers.RimWorld");
-            harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
 
         public override string SettingsCategory() => "Rim-Effect Renegade: Asari & Reapers";

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using RimWorld;
 using Verse;
+using System.Reflection;
 
 namespace RimEffectAR
 {
@@ -15,6 +16,13 @@ namespace RimEffectAR
     {
         static RimEffectARStartup()
         {
+            HarmonyLib.Harmony harmony = new HarmonyLib.Harmony("Neronix17.RimEffectAsariReapers.RimWorld");
+            try
+            {
+                harmony.PatchAll(Assembly.GetExecutingAssembly());
+                Log.Message($":: Rim-Effect Renegade: Asari & Reapers :: Harmony patched successfully...");
+            }
+            catch (Exception ex) { Log.Error(ex + ""); }
             ReaperRotTweak();
             Setup();
             DoDefsAlter();

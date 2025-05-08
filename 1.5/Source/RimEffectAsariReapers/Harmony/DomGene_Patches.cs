@@ -1,62 +1,76 @@
-﻿namespace RimEffectAR
+﻿using HarmonyLib;
+using RimWorld;
+using System;
+using Verse;
+using UnityEngine;
+using System.Collections.Generic;
+using System.Linq;
+using Verse.AI;
+using static RimEffectAR.DomGeneUtil;
+
+namespace RimEffectAR
 {
-    using HarmonyLib;
-    using RimWorld;
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Reflection;
-    using Verse;
-
-    [HarmonyPatch]
-    public static class GetInheritedGenes_Patch
+    public static class DomGene_Patches
     {
-        public static MethodBase TargetMethod()
-        {
-            return (from x in typeof(PregnancyUtility).GetMethods()
-                    where x.Name == "GetInheritedGenes"
-                    select x).MaxBy((MethodInfo x) => x.GetParameters().Length);
-        }
+        private static int ranNum;
 
-        [HarmonyPostfix]
-        public static void Postfix(ref List<GeneDef> __result, Pawn father, Pawn mother)
+        [HarmonyPatch(typeof(PregnancyUtility), "GetInheritedGenes", new Type[] { typeof(Pawn), typeof(Pawn), typeof(bool) }, new ArgumentType[] { ArgumentType.Normal, ArgumentType.Normal, ArgumentType.Ref })]
+        public static class RE_GetInheritedGenes_Patch
         {
-            DomGeneUtil.InheritGenes inherit = null;
-            if (!(DomGeneUtil.CanInheritParentDominantGenes(father, ref inherit) & DomGeneUtil.CanInheritParentDominantGenes(mother, ref inherit)) && inherit != null)
+            [HarmonyPostfix]
+            public static void Postfix(Pawn father, Pawn mother, ref List<GeneDef> __result)
             {
-                __result.Clear();
+                InheritGenes inherit = null;
+                System.Random random = new System.Random();
+                if (CanInheritParentDominantGenes(father, ref inherit) & CanInheritParentDominantGenes(mother, ref inherit))
+                {
+                    inherit = null;
+                    ranNum = random.Next(0, 2); ;
+                    if (ranNum == 0)
+                    {
+                        CanInheritParentDominantGenes(mother, ref inherit);
+                    }
+                    else
+                    {
+                        CanInheritParentDominantGenes(father, ref inherit);
+                    }
+                }
+                if (inherit is null) { return; }
                 inherit?.Invoke(__result);
             }
         }
-    }
 
-    [HarmonyPatch(typeof(PregnancyUtility), "TryGetInheritedXenotype")]
-    public static class TryGetInheritedXenotype_Patch
-    {
+        [HarmonyPatch(typeof(PregnancyUtility), nameof(TryGetInheritedXenotype))]
         [HarmonyPostfix]
-        public static void Postfix(ref bool __result, Pawn mother, Pawn father, ref XenotypeDef xenotype)
+        public static void TryGetInheritedXenotype(ref bool __result, Pawn mother, Pawn father, ref XenotypeDef xenotype)
         {
-            DomGeneUtil.dominantParent = null;
-            DomGeneUtil.InheritXenotype inherit = null;
-            if (!(DomGeneUtil.CanInheritParentDominantXenotype(mother, ref inherit) & DomGeneUtil.CanInheritParentDominantXenotype(father, ref inherit)) && inherit != null)
+            domParent = null;
+            InheritXenotype inherit = null;
+            if (CanInheritParentDominantXenotype(mother, ref inherit) & CanInheritParentDominantXenotype(father, ref inherit))
             {
-                inherit?.Invoke(ref xenotype);
-                __result = true;
+                inherit = null;
+                if (ranNum == 0)
+                {
+
+                    CanInheritParentDominantXenotype(mother, ref inherit);
+                }
+                else
+                {
+                    CanInheritParentDominantXenotype(father, ref inherit);
+                }
             }
+            if (inherit is null) { return; }
+            inherit?.Invoke(ref xenotype);
+            __result = true;
         }
-    }
 
-    [HarmonyPatch(typeof(Pawn_GeneTracker), "SetXenotypeDirect")]
-    public static class SetXenotypeDirect_Patch
-    {
+        [HarmonyPatch(typeof(Pawn_GeneTracker), nameof(SetXenotypeDirect))]
         [HarmonyPostfix]
-        public static void Postfix(Pawn_GeneTracker __instance, ref XenotypeDef xenotype)
+        public static void SetXenotypeDirect(Pawn_GeneTracker __instance, ref XenotypeDef xenotype)
         {
-            if (DomGeneUtil.dominantParent != null)
-            {
-                __instance.iconDef = DomGeneUtil.dominantParent.genes.iconDef;
-                __instance.xenotypeName = DomGeneUtil.dominantParent.genes.xenotypeName;
-            }
+            if (domParent is null) { return; }
+            __instance.iconDef = domParent.genes.iconDef;
+            __instance.xenotypeName = domParent.genes.xenotypeName;
         }
     }
 }
