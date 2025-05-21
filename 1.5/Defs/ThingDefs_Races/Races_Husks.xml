@@ -21,6 +21,15 @@
 			<lifeExpectancy>2500</lifeExpectancy>
 			<bloodDef>Filth_MachineBits</bloodDef>
 		</race>
+		<comps>
+			<li Class="CompProperties_Stunnable">
+				<affectedDamageDefs>
+					<li>Stun</li>
+					<li>EMP</li>
+					<li MayRequire="Neronix17.OuterRim.Core">OuterRim_Ion</li>
+				</affectedDamageDefs>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<PawnKindDef Name="BaseHuskKind" Abstract="True">
