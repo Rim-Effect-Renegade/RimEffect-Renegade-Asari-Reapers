@@ -65,7 +65,7 @@
 			<li>Gender</li>
 		</exclusionTags>
 		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
+			<li Class="VEF.Genes.GeneExtension">
 				<forceFemale>true</forceFemale>
 			</li>
 		</modExtensions>
@@ -105,7 +105,7 @@
 			</suffixSymbols>
 		</symbolPack>
 		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
+			<li Class="VEF.Genes.GeneExtension">
 				<customBloodThingDef>RE_Filth_BlueBlood</customBloodThingDef>
 				<customBloodIcon>UI/Icons/Medical/RE_BlueBleeding</customBloodIcon>
 				<customBloodEffect>RE_Damage_HitBlueFlesh</customBloodEffect>

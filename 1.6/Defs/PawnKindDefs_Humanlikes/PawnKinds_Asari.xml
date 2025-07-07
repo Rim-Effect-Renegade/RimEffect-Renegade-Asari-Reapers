@@ -34,7 +34,7 @@
 			<li>RE_Implant</li>
 		</techHediffsTags>
 		<modExtensions>
-			<li Class="VFECore.PawnKindDefExtension">
+			<li Class="VEF.Pawns.PawnKindDefExtension">
 				<factionColourApparelPartList>
 					<li>FullHead</li>
 					<li>Torso</li>
@@ -52,7 +52,7 @@
 					<li>OnSkin</li>
 				</factionColourApparelLayerList>
 			</li>
-			<li Class="VFECore.Abilities.PawnKindAbilityExtension">
+			<li Class="VEF.Abilities.PawnKindAbilityExtension">
 				<giveAbilities>
 					<li>RE_Biotic_Throw</li>
 				</giveAbilities>
@@ -88,7 +88,7 @@
 			<li>ImplantEmpireCommon</li>
 		</techHediffsTags>
 		<modExtensions>
-			<li Class="VFECore.PawnKindDefExtension">
+			<li Class="VEF.Pawns.PawnKindDefExtension">
 				<factionColourApparelPartList>
 					<li>FullHead</li>
 					<li>Torso</li>
@@ -106,7 +106,7 @@
 					<li>OnSkin</li>
 				</factionColourApparelLayerList>
 			</li>
-			<li Class="VFECore.Abilities.PawnKindAbilityExtension">
+			<li Class="VEF.Abilities.PawnKindAbilityExtension">
 				<giveAbilities>
 					<li>RE_Biotic_Throw</li>
 				</giveAbilities>
@@ -145,7 +145,7 @@
 		</techHediffsTags>
 		<apparelIgnoreSeasons>True</apparelIgnoreSeasons>
 		<modExtensions>
-			<li Class="VFECore.PawnKindDefExtension">
+			<li Class="VEF.Pawns.PawnKindDefExtension">
 				<factionColourApparelPartList>
 					<li>FullHead</li>
 					<li>Torso</li>
@@ -163,7 +163,7 @@
 					<li>OnSkin</li>
 				</factionColourApparelLayerList>
 			</li>
-			<li Class="VFECore.Abilities.PawnKindAbilityExtension">
+			<li Class="VEF.Abilities.PawnKindAbilityExtension">
 				<giveAbilities>
 					<li>RE_Biotic_Throw</li>
 				</giveAbilities>
@@ -202,7 +202,7 @@
 		</techHediffsTags>
 		<apparelIgnoreSeasons>True</apparelIgnoreSeasons>
 		<modExtensions>
-			<li Class="VFECore.PawnKindDefExtension">
+			<li Class="VEF.Pawns.PawnKindDefExtension">
 				<factionColourApparelPartList>
 					<li>FullHead</li>
 					<li>Torso</li>
@@ -220,7 +220,7 @@
 					<li>OnSkin</li>
 				</factionColourApparelLayerList>
 			</li>
-			<li Class="VFECore.Abilities.PawnKindAbilityExtension">
+			<li Class="VEF.Abilities.PawnKindAbilityExtension">
 				<giveAbilities>
 					<li>RE_Biotic_Throw</li>
 				</giveAbilities>
@@ -261,7 +261,7 @@
 		</techHediffsTags>
 		<apparelIgnoreSeasons>True</apparelIgnoreSeasons>
 		<modExtensions>
-			<li Class="VFECore.PawnKindDefExtension">
+			<li Class="VEF.Pawns.PawnKindDefExtension">
 				<factionColourApparelPartList>
 					<li>FullHead</li>
 					<li>Torso</li>
@@ -279,7 +279,7 @@
 					<li>OnSkin</li>
 				</factionColourApparelLayerList>
 			</li>
-			<li Class="VFECore.Abilities.PawnKindAbilityExtension">
+			<li Class="VEF.Abilities.PawnKindAbilityExtension">
 				<giveAbilities>
 					<li>RE_Biotic_Throw</li>
 				</giveAbilities>
@@ -435,7 +435,7 @@
 			<li>RE_Implant</li>
 		</techHediffsTags>
 		<modExtensions>
-			<li Class="VFECore.Abilities.PawnKindAbilityExtension">
+			<li Class="VEF.Abilities.PawnKindAbilityExtension">
 				<giveAbilities>
 					<li>RE_Biotic_Throw</li>
 				</giveAbilities>
@@ -504,7 +504,7 @@
 		</techHediffsTags>
 		<apparelIgnoreSeasons>True</apparelIgnoreSeasons>
 		<modExtensions>
-			<li Class="VFECore.PawnKindDefExtension">
+			<li Class="VEF.Pawns.PawnKindDefExtension">
 				<factionColourApparelPartList>
 					<li>FullHead</li>
 					<li>Torso</li>
@@ -522,7 +522,7 @@
 					<li>OnSkin</li>
 				</factionColourApparelLayerList>
 			</li>
-			<li Class="VFECore.Abilities.PawnKindAbilityExtension">
+			<li Class="VEF.Abilities.PawnKindAbilityExtension">
 				<giveAbilities>
 					<li>RE_Biotic_Throw</li>
 				</giveAbilities>
@@ -573,7 +573,7 @@
 		</techHediffsTags>
 		<apparelIgnoreSeasons>True</apparelIgnoreSeasons>
 		<modExtensions>
-			<li Class="VFECore.Abilities.PawnKindAbilityExtension">
+			<li Class="VEF.Abilities.PawnKindAbilityExtension">
 				<giveAbilities>
 					<li>RE_Biotic_Flight</li>
 					<li>RE_Biotic_Charm</li>

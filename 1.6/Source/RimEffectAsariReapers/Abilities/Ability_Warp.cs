@@ -1,8 +1,8 @@
 ﻿namespace RimEffectAR
 {
     using Verse;
-    using VFECore.Abilities;
-    using Ability = VFECore.Abilities.Ability;
+    using VEF.Abilities;
+    using Ability = VEF.Abilities.Ability;
 
     public class HediffComp_WarpTargetReact : HediffComp_AbilityTargetReact
     {

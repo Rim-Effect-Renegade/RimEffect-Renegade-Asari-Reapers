@@ -41,10 +41,13 @@
 		<uiIconScale>1.0</uiIconScale>
 		<building>
 			<claimable>false</claimable>
-			<soundAmbient>ShuttleIdle_Ambience</soundAmbient>
 			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
 		</building>
 		<comps>
+			<li Class="CompProperties_AmbientSound">
+				<sound>ShuttleIdle_Ambience</sound>
+				<disabledOnUnpowered>false</disabledOnUnpowered>
+			</li>
 		</comps>
 		<costList>
 			<Plasteel>450</Plasteel>
@@ -98,9 +101,14 @@
 		<uiIconScale>1.0</uiIconScale>
 		<building>
 			<claimable>false</claimable>
-			<soundAmbient>ShuttleIdle_Ambience</soundAmbient>
 			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
 		</building>
+		<comps>
+			<li Class="CompProperties_AmbientSound">
+				<sound>ShuttleIdle_Ambience</sound>
+				<disabledOnUnpowered>false</disabledOnUnpowered>
+			</li>
+		</comps>
 		<techLevel>Ultra</techLevel>
 	</ThingDef>
 

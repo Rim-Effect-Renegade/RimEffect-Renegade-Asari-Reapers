@@ -13,7 +13,7 @@ namespace RimEffectAR
     using UnityEngine;
     using Verse;
     using Verse.Sound;
-    using Ability = VFECore.Abilities.Ability;
+    using Ability = VEF.Abilities.Ability;
 
 
     public class Ability_Sphere : Ability

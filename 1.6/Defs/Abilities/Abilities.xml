@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<VFECore.Abilities.AbilityDef>
+	<VEF.Abilities.AbilityDef>
 		<defName>RE_Biotic_Lance</defName>
 		<label>biotic lance</label>
 		<description>Devastates a small area with a swiftly thrown shaft of energy.</description>
-		<abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+		<abilityClass>VEF.Abilities.Ability_ShootProjectile</abilityClass>
 		<targetMode>Location</targetMode>
 		<castTime>60</castTime>
 		<range>48</range>
@@ -21,19 +21,19 @@
 			<minimumLevel>1</minimumLevel>
 		</requiredHediff>
 		<modExtensions>
-			<li Class="VFECore.Abilities.AbilityExtension_Projectile">
+			<li Class="VEF.Abilities.AbilityExtension_Projectile">
 				<projectile>RE_Biotic_LanceProjectile</projectile>
 			</li>
 			<li Class="RimEffect.AbilityExtension_Biotic">
 				<energyUsed>20</energyUsed>
 			</li>
 		</modExtensions>
-	</VFECore.Abilities.AbilityDef>
+	</VEF.Abilities.AbilityDef>
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>RE_Biotic_LanceProjectile</defName>
 		<label>biotic lance</label>
-		<thingClass>VFECore.Abilities.AbilityProjectile</thingClass>
+		<thingClass>VEF.Abilities.AbilityProjectile</thingClass>
 		<graphicData>
 			<texPath>Things/AbilityEffects/BioticLance_Shot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -49,11 +49,11 @@
 		</projectile>
 	</ThingDef>
 
-	<VFECore.Abilities.AbilityDef>
+	<VEF.Abilities.AbilityDef>
 		<defName>RE_Biotic_Warp</defName>
 		<label>biotic warp</label>
 		<description>Create rapidly shifting mass effect fields that shred a target apart, lowering it's armor. Further biotic attacks can cause detonation.</description>
-		<abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+		<abilityClass>VEF.Abilities.Ability_Blank</abilityClass>
 		<targetMode>Pawn</targetMode>
 		<castTime>60</castTime>
 		<range>24</range>
@@ -67,14 +67,14 @@
 			<li>RE_Fleck_BioticDistortion</li>
 		</targetFlecks>
 		<modExtensions>
-			<li Class="VFECore.Abilities.AbilityExtension_Hediff">
+			<li Class="VEF.Abilities.AbilityExtension_Hediff">
 				<hediff>RE_Biotic_WarpHediff</hediff>
 			</li>
 			<li Class="RimEffect.AbilityExtension_Biotic">
 				<energyUsed>10</energyUsed>
 			</li>
 		</modExtensions>
-	</VFECore.Abilities.AbilityDef>
+	</VEF.Abilities.AbilityDef>
 
 	<HediffDef ParentName="DiseaseBase">
 		<defName>RE_Biotic_WarpHediff</defName>
@@ -120,7 +120,7 @@
 		</children>
 	</EffecterDef>
 
-	<VFECore.Abilities.AbilityDef>
+	<VEF.Abilities.AbilityDef>
 		<defName>RE_Biotic_Flight</defName>
 		<label>biotic flight</label>
 		<description>Using biotic energy, lift yourself in the air to travel a short distance over any obstacles.</description>
@@ -144,7 +144,7 @@
 				<energyUsed>10</energyUsed>
 			</li>
 		</modExtensions>
-	</VFECore.Abilities.AbilityDef>
+	</VEF.Abilities.AbilityDef>
 
 	<HediffDef ParentName="DiseaseBase">
 		<defName>RE_Biotic_Flight</defName>
@@ -180,11 +180,11 @@
 		</children>
 	</EffecterDef>
 
-	<VFECore.Abilities.AbilityDef>
+	<VEF.Abilities.AbilityDef>
 		<defName>RE_Biotic_Charm</defName>
 		<label>biotic charm</label>
 		<description>Upon next recruitment attempt, Ardat Yakshi has 100% chance to recruit a prisoner. Prisoner recruited this way will be unable to gain any knowledge for the rest of their life.</description>
-		<abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+		<abilityClass>VEF.Abilities.Ability_Blank</abilityClass>
 		<targetMode>Self</targetMode>
 		<castTime>60</castTime>
 		<iconPath>UI/Abilities/Biotic_Charm</iconPath>
@@ -199,11 +199,11 @@
 			<li Class="RimEffect.AbilityExtension_Biotic">
 				<energyUsed>50</energyUsed>
 			</li>
-			<li Class="VFECore.Abilities.AbilityExtension_Hediff">
+			<li Class="VEF.Abilities.AbilityExtension_Hediff">
 				<hediff>RE_Biotic_CharmHediff</hediff>
 			</li>
 		</modExtensions>
-	</VFECore.Abilities.AbilityDef>
+	</VEF.Abilities.AbilityDef>
 
 	<HediffDef ParentName="DiseaseBase">
 		<defName>RE_Biotic_CharmHediff</defName>
@@ -265,7 +265,7 @@
 		</stages>
 	</ThoughtDef>
 
-	<VFECore.Abilities.AbilityDef>
+	<VEF.Abilities.AbilityDef>
 		<defName>RE_Biotic_Stasis</defName>
 		<label>biotic stasis</label>
 		<description>Locks a target in space and time, preventing anything from affecting them for the duration of the stasis effect. The target cannot be damaged, cannot attack or move.</description>
@@ -283,14 +283,14 @@
 			<li>RE_Fleck_BioticDistortion</li>
 		</targetFlecks>
 		<modExtensions>
-			<li Class="VFECore.Abilities.AbilityExtension_Hediff">
+			<li Class="VEF.Abilities.AbilityExtension_Hediff">
 				<hediff>RE_Biotic_StasisHediff</hediff>
 			</li>
 			<li Class="RimEffect.AbilityExtension_Biotic">
 				<energyUsed>75</energyUsed>
 			</li>
 		</modExtensions>
-	</VFECore.Abilities.AbilityDef>
+	</VEF.Abilities.AbilityDef>
 
 	<HediffDef ParentName="DiseaseBase">
 		<defName>RE_Biotic_StasisHediff</defName>
@@ -330,7 +330,7 @@
 		</children>
 	</EffecterDef>
 
-	<VFECore.Abilities.AbilityDef>
+	<VEF.Abilities.AbilityDef>
 		<defName>RE_Biotic_Sphere</defName>
 		<label>biotic sphere</label>
 		<description>Create a defensive shield that surrounds the caster and nearby allies. Drains biotic energy quickly, creating a shield around the user and any nearby allies.</description>
@@ -349,14 +349,14 @@
 			<li>RE_Fleck_BioticDistortion</li>
 		</targetFlecks>
 		<modExtensions>
-			<li Class="VFECore.Abilities.AbilityExtension_Hediff">
+			<li Class="VEF.Abilities.AbilityExtension_Hediff">
 				<hediff>RE_Biotic_SphereHediff</hediff>
 			</li>
 			<li Class="RimEffect.AbilityExtension_Biotic">
 				<energyUsed>60</energyUsed>
 			</li>
 		</modExtensions>
-	</VFECore.Abilities.AbilityDef>
+	</VEF.Abilities.AbilityDef>
 
 	<HediffDef ParentName="DiseaseBase">
 		<defName>RE_Biotic_SphereHediff</defName>
@@ -392,7 +392,7 @@
 
 	<ThingDef ParentName="PawnFlyerBase">
 		<defName>RE_AbilityFlyer_Flight</defName>
-		<thingClass>VFECore.Abilities.AbilityPawnFlyer</thingClass>
+		<thingClass>VEF.Abilities.AbilityPawnFlyer</thingClass>
 		<pawnFlyer>
 			<flightDurationMin>1</flightDurationMin>
 			<flightSpeed>10</flightSpeed>

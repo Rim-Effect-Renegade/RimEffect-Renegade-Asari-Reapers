@@ -26,9 +26,14 @@
 			<buildingTags>
 				<li>RE_Reaper</li>
 			</buildingTags>
-			<soundAmbient>CrashedShipPart_Ambience</soundAmbient>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
+		<comps>
+			<li Class="CompProperties_AmbientSound">
+				<sound>CrashedShipPart_Ambience</sound>
+				<disabledOnUnpowered>false</disabledOnUnpowered>
+			</li>
+		</comps>
 		<statBases>
 			<Flammability>0</Flammability>
 			<Beauty>-20</Beauty>

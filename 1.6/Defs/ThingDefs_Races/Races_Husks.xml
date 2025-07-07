@@ -110,8 +110,8 @@
 			<Plasteel>20</Plasteel>
 		</butcherProducts>
 		<comps>
-			<li Class="VFECore.CompProperties_ShieldBubble">
-				<compClass>VFECore.Abilities.CompAbilities</compClass>
+			<li Class="VEF.Apparels.CompProperties_ShieldBubble">
+				<compClass>VEF.Abilities.CompAbilities</compClass>
 				<blockRangedAttack>True</blockRangedAttack>
 				<blockMeleeAttack>False</blockMeleeAttack>
 				<showWhenDrafted>True</showWhenDrafted>
@@ -144,7 +144,7 @@
 			</li>
 		</lifeStages>
 		<modExtensions>
-			<li Class="VFECore.Abilities.PawnKindAbilityExtension">
+			<li Class="VEF.Abilities.PawnKindAbilityExtension">
 				<giveAbilities>
 					<li>RE_Biotic_Warp</li>
 					<li>RE_Biotic_Throw</li>
@@ -691,7 +691,7 @@
 			<Plasteel>5</Plasteel>
 		</butcherProducts>
 		<comps>
-			<li Class="VFECore.CompProperties_ShieldBubble">
+			<li Class="VEF.Apparels.CompProperties_ShieldBubble">
 				<EnergyShieldRechargeRate>0.5</EnergyShieldRechargeRate>
 				<EnergyShieldEnergyMax>30</EnergyShieldEnergyMax>
 				<showAlways>true</showAlways>
