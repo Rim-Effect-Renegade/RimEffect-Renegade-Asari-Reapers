@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|f:\\rwmodcategories\\neronix17\\rimeffectbiotech\\rimeffect-asari-reapers-biotech\\1.6\\source\\rimeffectasarireapers\\abilities\\ability_warp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|solutionrelative:abilities\\ability_warp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|f:\\rwmodcategories\\neronix17\\rimeffectbiotech\\rimeffect-asari-reapers-biotech\\1.6\\source\\rimeffectasarireapers\\abilities\\ability_stasis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|solutionrelative:abilities\\ability_stasis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|f:\\rwmodcategories\\neronix17\\rimeffectbiotech\\rimeffect-asari-reapers-biotech\\1.6\\source\\rimeffectasarireapers\\abilities\\ability_sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|solutionrelative:abilities\\ability_sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|f:\\rwmodcategories\\neronix17\\rimeffectbiotech\\rimeffect-asari-reapers-biotech\\1.6\\source\\rimeffectasarireapers\\abilities\\ability_flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|solutionrelative:abilities\\ability_flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|f:\\rwmodcategories\\neronix17\\rimeffectbiotech\\rimeffect-asari-reapers-biotech\\1.6\\source\\rimeffectasarireapers\\rimeffectarmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|solutionrelative:rimeffectarmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|f:\\rwmodcategories\\neronix17\\rimeffectbiotech\\rimeffect-asari-reapers-biotech\\1.6\\source\\rimeffectasarireapers\\incidentworkers\\incidentworker_reaperlanding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|solutionrelative:incidentworkers\\incidentworker_reaperlanding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\rimeffectardefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|solutionrelative:rimeffectardefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\harmony\\patch_pawngenerator_generatepawnrelations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|solutionrelative:harmony\\patch_pawngenerator_generatepawnrelations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\abilities\\ability_warp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|solutionrelative:abilities\\ability_warp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\incidentworkers\\incidentworker_reaperlanding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|solutionrelative:incidentworkers\\incidentworker_reaperlanding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\abilities\\ability_stasis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|solutionrelative:abilities\\ability_stasis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\abilities\\ability_sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|solutionrelative:abilities\\ability_sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\abilities\\ability_flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|solutionrelative:abilities\\ability_flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\rimeffectarmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|solutionrelative:rimeffectarmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\harmony\\patch_pawngenerator_generatepawnrelations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|solutionrelative:harmony\\patch_pawngenerator_generatepawnrelations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40AB481F-37A5-4BB1-9453-4F4132A187BF}|RimEffectAsariReapers.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\deathactionworkers\\deathactionworker_spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,37 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ability_Warp.cs",
-              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\Abilities\\Ability_Warp.cs",
-              "RelativeDocumentMoniker": "Abilities\\Ability_Warp.cs",
-              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\Abilities\\Ability_Warp.cs",
-              "RelativeToolTip": "Abilities\\Ability_Warp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T17:35:56.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ability_Stasis.cs",
-              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\Abilities\\Ability_Stasis.cs",
-              "RelativeDocumentMoniker": "Abilities\\Ability_Stasis.cs",
-              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\Abilities\\Ability_Stasis.cs",
-              "RelativeToolTip": "Abilities\\Ability_Stasis.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T17:35:53.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Ability_Sphere.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\Abilities\\Ability_Sphere.cs",
               "RelativeDocumentMoniker": "Abilities\\Ability_Sphere.cs",
@@ -108,12 +82,11 @@
               "RelativeToolTip": "Abilities\\Ability_Sphere.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T17:35:49.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-07T17:35:49.121Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Ability_Flight.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\Abilities\\Ability_Flight.cs",
               "RelativeDocumentMoniker": "Abilities\\Ability_Flight.cs",
@@ -121,24 +94,23 @@
               "RelativeToolTip": "Abilities\\Ability_Flight.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T17:35:39.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-07T17:35:39.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "RimEffectARDefOf.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\RimEffectARDefOf.cs",
               "RelativeDocumentMoniker": "RimEffectARDefOf.cs",
               "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\RimEffectARDefOf.cs",
               "RelativeToolTip": "RimEffectARDefOf.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T07:56:16.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Patch_PawnGenerator_GeneratePawnRelations.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\Harmony\\Patch_PawnGenerator_GeneratePawnRelations.cs",
               "RelativeDocumentMoniker": "Harmony\\Patch_PawnGenerator_GeneratePawnRelations.cs",
@@ -174,6 +146,43 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IncidentWorker_ReaperLanding.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\IncidentWorkers\\IncidentWorker_ReaperLanding.cs",
+              "RelativeDocumentMoniker": "IncidentWorkers\\IncidentWorker_ReaperLanding.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\IncidentWorkers\\IncidentWorker_ReaperLanding.cs",
+              "RelativeToolTip": "IncidentWorkers\\IncidentWorker_ReaperLanding.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowDAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:46:25.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ability_Stasis.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\Abilities\\Ability_Stasis.cs",
+              "RelativeDocumentMoniker": "Abilities\\Ability_Stasis.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\Abilities\\Ability_Stasis.cs",
+              "RelativeToolTip": "Abilities\\Ability_Stasis.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T17:35:53.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ability_Warp.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\Abilities\\Ability_Warp.cs",
+              "RelativeDocumentMoniker": "Abilities\\Ability_Warp.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\Abilities\\Ability_Warp.cs",
+              "RelativeToolTip": "Abilities\\Ability_Warp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T17:35:56.908Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Building_Reaper.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\Buildings\\Building_Reaper.cs",
@@ -198,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "RimEffectARMod.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\RimEffectARMod.cs",
               "RelativeDocumentMoniker": "RimEffectARMod.cs",
@@ -206,20 +215,7 @@
               "RelativeToolTip": "RimEffectARMod.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAwwC4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T19:24:17.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IncidentWorker_ReaperLanding.cs",
-              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\IncidentWorkers\\IncidentWorker_ReaperLanding.cs",
-              "RelativeDocumentMoniker": "IncidentWorkers\\IncidentWorker_ReaperLanding.cs",
-              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Asari-Reapers-Biotech\\1.6\\Source\\RimEffectAsariReapers\\IncidentWorkers\\IncidentWorker_ReaperLanding.cs",
-              "RelativeToolTip": "IncidentWorkers\\IncidentWorker_ReaperLanding.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAvwCQAAACwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T07:46:25.35Z"
+              "WhenOpened": "2025-05-08T19:24:17.126Z"
             },
             {
               "$type": "Document",

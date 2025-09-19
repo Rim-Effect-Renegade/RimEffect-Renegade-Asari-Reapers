@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
-	<Operation Class="PatchOperationAdd">
+	<!-- <Operation Class="PatchOperationAdd">
 		<xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[kindDef="Combat" or kindDef="Peaceful" or kindDef="Settlement"]/options</xpath>
 		<value>
 			<RE_AsariTraveller>2</RE_AsariTraveller>
@@ -19,6 +19,13 @@
 		<xpath>/Defs/FactionDef[defName="Pirate"]/pawnGroupMakers/li[kindDef="Combat" or kindDef="Settlement"]/options</xpath>
 		<value>
 			<RE_AsariMercenary>2</RE_AsariMercenary>
+		</value>
+	</Operation> -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[@Name="OutlanderFactionBase" or @Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<RE_Asari>0.2</RE_Asari>
 		</value>
 	</Operation>
 

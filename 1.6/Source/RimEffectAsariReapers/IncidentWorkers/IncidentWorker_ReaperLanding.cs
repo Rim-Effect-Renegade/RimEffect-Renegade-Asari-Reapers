@@ -6,7 +6,6 @@ namespace RimEffectAR
 {
     public class IncidentWorker_ReaperLanding : IncidentWorker
     {
-
         public override bool CanFireNowSub(IncidentParms parms)
         {
             if (RimEffectARMod.settings.reaperInvasionIsDisabled)
@@ -34,9 +33,10 @@ namespace RimEffectAR
 
             try
             {
-                if (TileFinder.TryFindPassableTileWithTraversalDistance(Find.AnyPlayerHomeMap.Tile, incidentExtension.minDistance, incidentExtension.maxDistance, out PlanetTile tile,
-                                                                        i => TileFinder.IsValidTileForNewSettlement(i)))
+                if(TileFinder.TryFindNewSiteTile(out PlanetTile tile, incidentExtension.minDistance, incidentExtension.maxDistance, false, null, 0.5f, true, TileFinderMode.Near, false, false, null, null))
+                {
                     settlement.Tile = tile;
+                }
             }
             catch
             {
@@ -44,7 +44,9 @@ namespace RimEffectAR
             }
 
             if (settlement.Tile < 0)
+            {
                 settlement.Tile = TileFinder.RandomSettlementTileFor(faction);
+            }
 
             settlement.Name = SettlementNameGenerator.GenerateSettlementName(settlement, objectDef.GetModExtension<ReaperBaseExtension>().nameMaker);
             Find.WorldObjects.Add(settlement);
